@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="text_insert">Ingresa un valor</string>
+    <string name="Ingresar">Leer Texto</string>
+    <string name="main_menu_opt1">Manipular Textos</string>
+    <string name="msj_empty_text">no has ingresado texto </string>
+    <string name="cbx_atm">Cajero</string>
+    <string name="cbx_bag">Bolsa</string>
+    <string name="cbx_basquet">Canasta</string>
+    <string name="cbx_box">caja</string>
+    <string name="cbx_briefcase">Maletin</string>
+    <string name="cbx_calculator">calculadora</string>
+    <string name="main_menu_opt3">Menu</string>
+
+    <string-array name="selected_options">
+        <item>Cajero</item>
+        <item>Bolsa</item>
+        <item>Canasta</item>
+        <item>Caja</item>
+        <item>Maletin</item>
+        <item>Calculadora</item>
+    </string-array>
+
+</resources>
