@@ -19,7 +19,15 @@
         <activity android:name=".activities.TextActivity" />
         <activity android:name=".activities.ImageOptActivity" />
         <activity android:name=".activities.ListViewActivity" />
-        <activity android:name=".activities.SelectedOptActivity"></activity>
+        <activity android:name=".activities.SelectedOptActivity" />
+        <activity
+            android:name=".activities.RecycleActivity"
+            android:label="@string/title_activity_recycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RecycleTareaActivity"
+            android:label="@string/title_activity_recycle_tarea"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

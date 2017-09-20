@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.hame.adelcid.materialdesign.activities.ImageOptActivity;
 import com.hame.adelcid.materialdesign.activities.ListViewActivity;
+import com.hame.adelcid.materialdesign.activities.RecycleActivity;
+import com.hame.adelcid.materialdesign.activities.RecycleTareaActivity;
 import com.hame.adelcid.materialdesign.activities.TextActivity;
 import com.hame.adelcid.materialdesign.activities.SelectedOptActivity;
 
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void starSelecteOpt(View view) {
         startActivity(new Intent(this, SelectedOptActivity.class));
+    }
+
+    public void starRecycle(View view) {
+        startActivity(new Intent(this, RecycleActivity.class));
+    }
+
+    public void starRecycleTarea(View view) {
+        startActivity(new Intent(this, RecycleTareaActivity.class));
     }
 
     public void StarListView(View view) {

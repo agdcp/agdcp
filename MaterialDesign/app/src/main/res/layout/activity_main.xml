@@ -42,6 +42,18 @@
         android:onClick="StarListView"
         android:text="ListView" />
 
+    <Button
+        android:id="@+id/btn_start_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="starRecycle"
+        android:text="Recycle" />
 
+    <Button
+        android:id="@+id/btn_start_recycle_tarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="starRecycleTarea"
+        android:text="Recycle Tarea" />
 
 </LinearLayout>
